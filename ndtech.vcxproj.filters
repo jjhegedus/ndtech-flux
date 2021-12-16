@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{9ea073f4-5a41-452d-b80a-9fdfbd5cc0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{7248e9c5-1a7f-42af-a636-fe839759128c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidCoroutine.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXHelper.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Dispatcher.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DataProducingCoroutine.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXGeometryShader.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXPixelShader.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXVertexShader.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingData.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderStructures.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeUtilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionEffectScheduler.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispatcher.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="VoidCoroutine.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
